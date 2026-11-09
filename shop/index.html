@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MIA Store – Markenmode zu fairen Preisen</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar">🚚 Lieferung in 2–4 Werktagen · Kostenloser Versand ab 100 € · 14 Tage Rückgabe</div>
+<header>
+  <h1>MIA<span>STORE</span></h1>
+  <input id="search" type="search" placeholder="Suche nach Marke oder Artikel…">
+  <button id="cartBtn">🛒 Warenkorb (<span id="cartCount">0</span>)</button>
+</header>
+
+<section class="hero">
+  <h2>Marken-Klamotten &amp; Sneaker</h2>
+  <p>Nike · Jordan · Lacoste · Tommy Hilfiger · Stone Island · Polo Ralph Lauren</p>
+</section>
+
+<nav id="filters"></nav>
+<main id="grid"></main>
+
+<aside id="cart" class="hidden">
+  <div class="cart-head"><h3>Warenkorb</h3><button id="closeCart">✕</button></div>
+  <div id="cartItems"></div>
+  <div class="cart-foot">
+    <p>Zwischensumme: <b id="subtotal">0,00 €</b></p>
+    <p id="shipNote"></p>
+    <button id="checkout">Zur Kasse</button>
+  </div>
+</aside>
+
+<footer>
+  <p>Impressum · Datenschutz · AGB · Widerruf · Versand &amp; Zahlung</p>
+  <p>Alle Markennamen gehören ihren jeweiligen Inhabern. Wir verkaufen ausschließlich Originalware.</p>
+</footer>
+<script src="products.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

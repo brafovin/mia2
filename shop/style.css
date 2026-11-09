@@ -1,0 +1,20 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;color:#111;background:#fafafa}
+.topbar{background:#111;color:#fff;text-align:center;padding:8px;font-size:14px}
+header{display:flex;gap:12px;align-items:center;padding:14px 20px;background:#fff;border-bottom:1px solid #eee;flex-wrap:wrap}
+header h1{margin:0;font-size:24px;letter-spacing:2px}header h1 span{color:#e11d48}
+header input{flex:1;min-width:180px;padding:10px;border:1px solid #ddd;border-radius:8px}
+button{cursor:pointer;border:0;border-radius:8px;padding:10px 14px;background:#111;color:#fff;font-weight:600}
+.hero{text-align:center;padding:40px 20px;background:linear-gradient(135deg,#111,#3b3b3b);color:#fff}
+.hero h2{margin:0 0 8px;font-size:32px}.hero p{margin:0;opacity:.8}
+nav{display:flex;gap:8px;overflow-x:auto;padding:16px 20px}
+nav button{background:#fff;color:#111;border:1px solid #ddd;white-space:nowrap}nav button.active{background:#e11d48;color:#fff;border-color:#e11d48}
+main{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:16px;padding:0 20px 40px}
+.card{background:#fff;border-radius:12px;padding:12px;box-shadow:0 1px 4px #0001;display:flex;flex-direction:column;gap:6px}
+.card .img{height:160px;background:#eee;border-radius:8px;display:grid;place-items:center;font-weight:700;color:#999}
+.card h3{margin:0;font-size:16px}.price{font-size:18px;font-weight:700;margin:0}
+select{padding:8px;border-radius:8px;border:1px solid #ddd}
+#cart{position:fixed;top:0;right:0;width:min(380px,100%);height:100%;background:#fff;box-shadow:-4px 0 20px #0003;display:flex;flex-direction:column;padding:16px;z-index:10}
+#cart.hidden{display:none}.cart-head{display:flex;justify-content:space-between;align-items:center}
+#cartItems{flex:1;overflow:auto}.line{display:flex;justify-content:space-between;gap:8px;padding:10px 0;border-bottom:1px solid #eee}
+.line button{background:none;color:#111;padding:2px 6px}.cart-foot button{width:100%;background:#e11d48}
+footer{text-align:center;padding:24px;color:#777;font-size:13px;border-top:1px solid #eee}
